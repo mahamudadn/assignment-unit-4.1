@@ -27,7 +27,8 @@ console.log(helloName());
 function addNumbers( firstNumber, secondNumber ) {
    return  firstNumber + secondNumber;
 }
-console.log('I have added two numbers(8 & 10):', addNumbers(8, 10));
+let numbersAdded = addNumbers(8, 10)
+console.log('I have added two numbers(8 & 10):', numbersAdded);
 
 
 // 4. Function to multiply three numbers & return the result
