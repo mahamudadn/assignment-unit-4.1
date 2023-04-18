@@ -24,14 +24,20 @@ console.log(helloName());
 
 // 3. Function to add two numbers together & return the result
 
-
-console.log('I have added two numbers', addNumbers)
+function addNumbers( firstNumber, secondNumber ) {
+   return  firstNumber + secondNumber;
+}
+console.log('I have added two numbers(8 & 10):', addNumbers(8, 10));
 
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
+
+function multiplyThree(number1, number2, number3 ){
+  return number1 * number2 * number3;
 
 }
+numbersMultiplied = multiplyThree(3, 5, 10);
+console.log('I have multiplied three numbers(3, 5, 7', numbersMultiplied);
 
 
 // 5. Function that will return true if a number is positive, 
