@@ -137,3 +137,22 @@ function sumAll( arr) {
 
 console.log('The sum of numbers in the aaray are:', total);
 
+// 10. Function to return a new array of all positive (greater than zero)
+//     numbers contained in an input array. If there are no positive numbers
+//     return an empty array. Note: The input array should not change.
+
+const inputNumbers = [2, -7, 8, 4, -5];
+const positiveNumbers = allPositiveNumbers(inputNumbers);
+
+function allPositiveNumbers(inputArray) {
+  let PositiveNumbers = [];
+  for(let i = 0; i < inputArray.length; i++ ) {
+    if(inputArray[i] > 0) {
+      PositiveNumbers.push (inputArray[i])
+    }
+  }
+  return PositiveNumbers;
+}
+
+console.log('here are my positive numbers in  array ', positiveNumbers);
+
