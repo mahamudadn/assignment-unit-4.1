@@ -120,3 +120,20 @@ function isFirstLetter(letter, string) {
 console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
 console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
+
+// 9. Function to return the sum of all numbers in an array
+
+let numbers = [1, 3, 5, 7 ,9];
+let total = sumAll(numbers);
+
+function sumAll( arr) {
+  let sum = 0
+  // TODO: loop to add items
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum;
+}
+
+console.log('The sum of numbers in the aaray are:', total);
+
