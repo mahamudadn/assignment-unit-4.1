@@ -156,3 +156,24 @@ function allPositiveNumbers(inputArray) {
 
 console.log('here are my positive numbers in  array ', positiveNumbers);
 
+// created another function that returns negative number in one array.
+
+const allNumbers = [2, -7, 8, 4, -5];
+const negativeNumbers = allNegativeNumbers(allNumbers);
+
+function allNegativeNumbers(inputArray) {
+  let NegativeNumbers = [];
+  for(let i = 0; i < inputArray.length; i++ ) {
+    if(inputArray[i] < 0) {
+      NegativeNumbers.push(inputArray[i])
+    }
+  }
+  return NegativeNumbers;
+}
+
+console.log('here are my negative numbers in  array ', negativeNumbers);
+
+
+// 11. Pick a problem from Edabit(https://edabit.com/) or 
+//     CodeWars(https://www.codewars.com/). Then describe it 
+//     here in a comment, write the function, and test it!
